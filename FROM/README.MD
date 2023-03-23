@@ -71,6 +71,15 @@ The push refers to repository [docker.io/padmaravi/from]
 v1: digest: sha256:77e77cff9b2483dacc07feed7f5a23fb63445064769735314b1537f232dfe2ce size: 529
 [ec2-user@ip-172-31-26-33 FROM]$
 
+# when we push from vs then we need to pull the code
+# Next go to cd RUN file -execte the cmd to
+        --docker build -t padmaravi/run:v1 .
+# then {push
+[ec2-user@ip-172-31-26-33 RUN]$ docker push padmaravi/run:v1
+
+}
+
+
 
 
 ```

@@ -11,5 +11,5 @@ command will ececute at the time of running container.
     --to delete all container at a time use-- docker rm -f `docker ps -a -q`
 
 --> docker exec -it <imagename> bash then enter
---> cd/usr/share/ngnix/html/
+--> cd/usr/share/nginx/html/
 -->echo "Hi" > hello.html
