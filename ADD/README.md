@@ -8,3 +8,7 @@ but it has 2 extra capabilities.
 
 --[ec2-user@ip-172-31-26-33 ADD]$ docker build -t add:v1 .
 [ec2-user@ip-172-31-26-33 ADD]$ docker run -it add:v1
+[root@eb2da48a0f80 /]# cd /tmp/
+[root@eb2da48a0f80 tmp]# ls -l
+-rw------- 1 root root 223011 Jan 1 1970 AirelRibeiro
+[root@eb2da48a0f80 tmp]# exit
