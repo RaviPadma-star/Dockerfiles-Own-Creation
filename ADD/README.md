@@ -11,4 +11,7 @@ but it has 2 extra capabilities.
 [root@eb2da48a0f80 /]# cd /tmp/
 [root@eb2da48a0f80 tmp]# ls -l
 -rw------- 1 root root 223011 Jan 1 1970 AirelRibeiro
-[root@eb2da48a0f80 tmp]# exit
+drwxr-xr-x 2 root root 263 Apr 5 05:06 apache-tomcat-10.1.7-embed
+
+[root@eb2da48a0f80 tmp]# cd apache-tomcat-10.1.7-embed/
+[root@8f9317d4f930 apache-tomcat-10.1.7-embed]# ls -l
