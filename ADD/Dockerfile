@@ -1,2 +1,2 @@
 FROM almalinux
-ADD https://raw.githubusercontent.com/AirelRibeiro/AirelRibeiro/main/README.md /tmp/
+ADD https://github.com/AirelRibeiro?tab=repositories /tmp/
