@@ -2,7 +2,9 @@
 
 1. we cant overide the entrypoint, but we can overide in CMD
 2. we cant override the entrypoint, if we to do so it append to the entry point
-3. CMD will give the argument to entry point if we not mention in epression
+3. CMD will give the argument to entry point if we not mention in epression.
+   4 cmd will supply default argument to entrypoint, we can always overide cmd arugument from run time
+   5.you can stop misusing your images with other commads
    [ec2-user@ip-172-31-26-33 ENTRYPOINT]$ docker run entrypoint:v1
    PING google.com (142.251.16.101) 56(84) bytes of data.
    64 bytes from bl-in-f101.1e100.net (142.251.16.101): icmp_seq=1 ttl=49 time=1.46 ms
